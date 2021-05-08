@@ -1,0 +1,545 @@
+[     4.083] (--) Log file renamed from "/var/log/Xorg.pid-588.log" to "/var/log/Xorg.0.log"
+[     4.085] (WW) Failed to open protocol names file lib/xorg/protocol.txt
+[     4.085] 
+X.Org X Server 1.20.10
+X Protocol Version 11, Revision 0
+[     4.085] Build Operating System: Linux Arch Linux
+[     4.085] Current Operating System: Linux WziumPC 5.11.13-zen1-1-zen #1 ZEN SMP PREEMPT Sat, 10 Apr 2021 20:47:18 +0000 x86_64
+[     4.085] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-linux-zen root=UUID=f4422fab-56f3-4389-a5ba-236f53c3ed40 rw loglevel=3 random.trust_cpu=on
+[     4.085] Build Date: 14 December 2020  12:10:29PM
+[     4.085]  
+[     4.085] Current version of pixman: 0.40.0
+[     4.085] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[     4.085] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[     4.085] (==) Log file: "/var/log/Xorg.0.log", Time: Thu Apr 15 12:02:04 2021
+[     4.089] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[     4.089] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[     4.089] (==) No Layout section.  Using the first Screen section.
+[     4.089] (==) No screen section available. Using defaults.
+[     4.089] (**) |-->Screen "Default Screen Section" (0)
+[     4.089] (**) |   |-->Monitor "<default monitor>"
+[     4.089] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[     4.089] (==) Automatically adding devices
+[     4.089] (==) Automatically enabling devices
+[     4.089] (==) Automatically adding GPU devices
+[     4.089] (==) Automatically binding GPU devices
+[     4.089] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[     4.092] (WW) The directory "/usr/share/fonts/Type1" does not exist.
+[     4.092] 	Entry deleted from font path.
+[     4.094] (==) FontPath set to:
+	/usr/share/fonts/misc,
+	/usr/share/fonts/TTF,
+	/usr/share/fonts/OTF,
+	/usr/share/fonts/100dpi,
+	/usr/share/fonts/75dpi
+[     4.094] (==) ModulePath set to "/usr/lib/xorg/modules"
+[     4.094] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[     4.094] (II) Module ABI versions:
+[     4.094] 	X.Org ANSI C Emulation: 0.4
+[     4.094] 	X.Org Video Driver: 24.1
+[     4.094] 	X.Org XInput driver : 24.1
+[     4.094] 	X.Org Server Extension : 10.0
+[     4.095] (++) using VT number 1
+
+[     4.096] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_31
+[     4.097] (II) xfree86: Adding drm device (/dev/dri/card0)
+[     4.097] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 11 paused 0
+[     4.100] (**) OutputClass "nvidia" ModulePath extended to "/usr/lib/nvidia/xorg,/usr/lib/xorg/modules,/usr/lib/xorg/modules"
+[     4.103] (--) PCI:*(31@0:0:0) 10de:1c03:1458:3771 rev 161, Mem @ 0xf6000000/16777216, 0xe0000000/268435456, 0xf0000000/33554432, I/O @ 0x0000e000/128, BIOS @ 0x????????/131072
+[     4.103] (WW) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[     4.103] (II) LoadModule: "glx"
+[     4.106] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[     4.113] (II) Module glx: vendor="X.Org Foundation"
+[     4.113] 	compiled for 1.20.10, module version = 1.0.0
+[     4.113] 	ABI class: X.Org Server Extension, version 10.0
+[     4.113] (II) Applying OutputClass "nvidia" to /dev/dri/card0
+[     4.113] 	loading driver: nvidia
+[     4.113] (==) Matched nvidia as autoconfigured driver 0
+[     4.113] (==) Matched nouveau as autoconfigured driver 1
+[     4.113] (==) Matched nv as autoconfigured driver 2
+[     4.113] (==) Matched modesetting as autoconfigured driver 3
+[     4.113] (==) Matched fbdev as autoconfigured driver 4
+[     4.113] (==) Matched vesa as autoconfigured driver 5
+[     4.113] (==) Assigned the driver to the xf86ConfigLayout
+[     4.113] (II) LoadModule: "nvidia"
+[     4.113] (II) Loading /usr/lib/xorg/modules/drivers/nvidia_drv.so
+[     4.118] (II) Module nvidia: vendor="NVIDIA Corporation"
+[     4.118] 	compiled for 1.6.99.901, module version = 1.0.0
+[     4.118] 	Module class: X.Org Video Driver
+[     4.119] (II) LoadModule: "nouveau"
+[     4.120] (WW) Warning, couldn't open module nouveau
+[     4.120] (EE) Failed to load module "nouveau" (module does not exist, 0)
+[     4.120] (II) LoadModule: "nv"
+[     4.120] (WW) Warning, couldn't open module nv
+[     4.120] (EE) Failed to load module "nv" (module does not exist, 0)
+[     4.120] (II) LoadModule: "modesetting"
+[     4.120] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[     4.122] (II) Module modesetting: vendor="X.Org Foundation"
+[     4.122] 	compiled for 1.20.10, module version = 1.20.10
+[     4.122] 	Module class: X.Org Video Driver
+[     4.122] 	ABI class: X.Org Video Driver, version 24.1
+[     4.122] (II) LoadModule: "fbdev"
+[     4.122] (WW) Warning, couldn't open module fbdev
+[     4.122] (EE) Failed to load module "fbdev" (module does not exist, 0)
+[     4.122] (II) LoadModule: "vesa"
+[     4.122] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[     4.122] (II) Module vesa: vendor="X.Org Foundation"
+[     4.122] 	compiled for 1.20.9, module version = 2.5.0
+[     4.122] 	Module class: X.Org Video Driver
+[     4.122] 	ABI class: X.Org Video Driver, version 24.1
+[     4.122] (II) NVIDIA dlloader X Driver  460.67  Thu Mar 11 00:09:07 UTC 2021
+[     4.122] (II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+[     4.123] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[     4.123] (II) VESA: driver for VESA chipsets: vesa
+[     4.123] (II) systemd-logind: releasing fd for 226:0
+[     4.124] (II) Loading sub module "fb"
+[     4.124] (II) LoadModule: "fb"
+[     4.124] (II) Loading /usr/lib/xorg/modules/libfb.so
+[     4.125] (II) Module fb: vendor="X.Org Foundation"
+[     4.125] 	compiled for 1.20.10, module version = 1.0.0
+[     4.125] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[     4.125] (II) Loading sub module "wfb"
+[     4.125] (II) LoadModule: "wfb"
+[     4.125] (II) Loading /usr/lib/xorg/modules/libwfb.so
+[     4.125] (II) Module wfb: vendor="X.Org Foundation"
+[     4.125] 	compiled for 1.20.10, module version = 1.0.0
+[     4.125] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[     4.125] (II) Loading sub module "ramdac"
+[     4.126] (II) LoadModule: "ramdac"
+[     4.126] (II) Module "ramdac" already built-in
+[     4.127] (WW) Falling back to old probe method for modesetting
+[     4.127] (II) NVIDIA(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[     4.127] (==) NVIDIA(0): Depth 24, (==) framebuffer bpp 32
+[     4.127] (==) NVIDIA(0): RGB weight 888
+[     4.127] (==) NVIDIA(0): Default visual is TrueColor
+[     4.127] (==) NVIDIA(0): Using gamma correction (1.0, 1.0, 1.0)
+[     4.127] (II) Applying OutputClass "nvidia" options to /dev/dri/card0
+[     4.127] (**) NVIDIA(0): Option "AllowEmptyInitialConfiguration"
+[     4.127] (**) NVIDIA(0): Enabling 2D acceleration
+[     4.127] (II) Loading sub module "glxserver_nvidia"
+[     4.127] (II) LoadModule: "glxserver_nvidia"
+[     4.127] (II) Loading /usr/lib/nvidia/xorg/libglxserver_nvidia.so
+[     4.172] (II) Module glxserver_nvidia: vendor="NVIDIA Corporation"
+[     4.172] 	compiled for 1.6.99.901, module version = 1.0.0
+[     4.172] 	Module class: X.Org Server Extension
+[     4.172] (II) NVIDIA GLX Module  460.67  Thu Mar 11 00:06:44 UTC 2021
+[     4.174] (II) NVIDIA: The X server supports PRIME Render Offload.
+[     5.187] (--) NVIDIA(0): Valid display device(s) on GPU-0 at PCI:31:0:0
+[     5.187] (--) NVIDIA(0):     DFP-0 (boot)
+[     5.187] (--) NVIDIA(0):     DFP-1
+[     5.187] (--) NVIDIA(0):     DFP-2
+[     5.187] (--) NVIDIA(0):     DFP-3
+[     5.187] (--) NVIDIA(0):     DFP-4
+[     5.188] (II) NVIDIA(0): NVIDIA GPU GeForce GTX 1060 6GB (GP106-A) at PCI:31:0:0
+[     5.188] (II) NVIDIA(0):     (GPU-0)
+[     5.188] (--) NVIDIA(0): Memory: 6291456 kBytes
+[     5.188] (--) NVIDIA(0): VideoBIOS: 86.06.63.00.e5
+[     5.188] (II) NVIDIA(0): Detected PCI Express Link width: 16X
+[     5.203] (--) NVIDIA(GPU-0): Gateway FPD1760 (DFP-0): connected
+[     5.203] (--) NVIDIA(GPU-0): Gateway FPD1760 (DFP-0): Internal TMDS
+[     5.203] (--) NVIDIA(GPU-0): Gateway FPD1760 (DFP-0): 330.0 MHz maximum pixel clock
+[     5.203] (--) NVIDIA(GPU-0): 
+[     5.233] (--) NVIDIA(GPU-0): LG Electronics L222W (DFP-1): connected
+[     5.233] (--) NVIDIA(GPU-0): LG Electronics L222W (DFP-1): Internal TMDS
+[     5.233] (--) NVIDIA(GPU-0): LG Electronics L222W (DFP-1): 600.0 MHz maximum pixel clock
+[     5.233] (--) NVIDIA(GPU-0): 
+[     5.233] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[     5.233] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[     5.233] (--) NVIDIA(GPU-0): DFP-2: 1440.0 MHz maximum pixel clock
+[     5.233] (--) NVIDIA(GPU-0): 
+[     5.233] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[     5.233] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[     5.233] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[     5.234] (--) NVIDIA(GPU-0): 
+[     5.234] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[     5.234] (--) NVIDIA(GPU-0): DFP-4: Internal TMDS
+[     5.234] (--) NVIDIA(GPU-0): DFP-4: 330.0 MHz maximum pixel clock
+[     5.234] (--) NVIDIA(GPU-0): 
+[     5.252] (==) NVIDIA(0): 
+[     5.252] (==) NVIDIA(0): No modes were requested; the default mode "nvidia-auto-select"
+[     5.252] (==) NVIDIA(0):     will be used as the requested mode.
+[     5.252] (==) NVIDIA(0): 
+[     5.252] (II) NVIDIA(0): Validated MetaModes:
+[     5.252] (II) NVIDIA(0):     "DFP-0:nvidia-auto-select,DFP-1:nvidia-auto-select"
+[     5.252] (II) NVIDIA(0): Virtual screen size determined to be 2960 x 1050
+[     5.254] (--) NVIDIA(0): DPI set to (95, 96); computed from "UseEdidDpi" X config
+[     5.254] (--) NVIDIA(0):     option
+[     5.254] (II) UnloadModule: "modesetting"
+[     5.254] (II) Unloading modesetting
+[     5.254] (II) UnloadModule: "vesa"
+[     5.254] (II) Unloading vesa
+[     5.255] (II) NVIDIA: Using 24576.00 MB of virtual memory for indirect memory
+[     5.255] (II) NVIDIA:     access.
+[     5.257] (II) NVIDIA(0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[     5.257] (II) NVIDIA(0):     may not be running or the "AcpidSocketPath" X
+[     5.257] (II) NVIDIA(0):     configuration option may not be set correctly.  When the
+[     5.257] (II) NVIDIA(0):     ACPI event daemon is available, the NVIDIA X driver will
+[     5.257] (II) NVIDIA(0):     try to use it to receive ACPI event notifications.  For
+[     5.257] (II) NVIDIA(0):     details, please see the "ConnectToAcpid" and
+[     5.257] (II) NVIDIA(0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[     5.257] (II) NVIDIA(0):     Config Options in the README.
+[     5.274] (II) NVIDIA(0): Setting mode "DFP-0:nvidia-auto-select,DFP-1:nvidia-auto-select"
+[     5.336] (==) NVIDIA(0): Disabling shared memory pixmaps
+[     5.337] (==) NVIDIA(0): Backing store enabled
+[     5.337] (==) NVIDIA(0): Silken mouse disabled
+[     5.337] (==) NVIDIA(0): DPMS enabled
+[     5.337] (II) Loading sub module "dri2"
+[     5.337] (II) LoadModule: "dri2"
+[     5.337] (II) Module "dri2" already built-in
+[     5.337] (II) NVIDIA(0): [DRI2] Setup complete
+[     5.337] (II) NVIDIA(0): [DRI2]   VDPAU driver: nvidia
+[     5.338] (II) Initializing extension Generic Event Extension
+[     5.338] (II) Initializing extension SHAPE
+[     5.338] (II) Initializing extension MIT-SHM
+[     5.338] (II) Initializing extension XInputExtension
+[     5.338] (II) Initializing extension XTEST
+[     5.338] (II) Initializing extension BIG-REQUESTS
+[     5.338] (II) Initializing extension SYNC
+[     5.338] (II) Initializing extension XKEYBOARD
+[     5.338] (II) Initializing extension XC-MISC
+[     5.338] (II) Initializing extension SECURITY
+[     5.338] (II) Initializing extension XFIXES
+[     5.338] (II) Initializing extension RENDER
+[     5.338] (II) Initializing extension RANDR
+[     5.338] (II) Initializing extension COMPOSITE
+[     5.338] (II) Initializing extension DAMAGE
+[     5.338] (II) Initializing extension MIT-SCREEN-SAVER
+[     5.338] (II) Initializing extension DOUBLE-BUFFER
+[     5.338] (II) Initializing extension RECORD
+[     5.338] (II) Initializing extension DPMS
+[     5.338] (II) Initializing extension Present
+[     5.338] (II) Initializing extension DRI3
+[     5.338] (II) Initializing extension X-Resource
+[     5.338] (II) Initializing extension XVideo
+[     5.338] (II) Initializing extension XVideo-MotionCompensation
+[     5.338] (II) Initializing extension GLX
+[     5.338] (II) Initializing extension GLX
+[     5.338] (II) Indirect GLX disabled.
+[     5.338] (II) GLX: Another vendor is already registered for screen 0
+[     5.338] (II) Initializing extension XFree86-VidModeExtension
+[     5.338] (II) Initializing extension XFree86-DGA
+[     5.338] (II) Initializing extension XFree86-DRI
+[     5.338] (II) Initializing extension DRI2
+[     5.338] (II) Initializing extension NV-GLX
+[     5.338] (II) Initializing extension NV-CONTROL
+[     5.338] (II) Initializing extension XINERAMA
+[     5.416] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[     5.416] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[     5.416] (**) Power Button: Applying InputClass "system-keyboard"
+[     5.416] (II) LoadModule: "libinput"
+[     5.416] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[     5.420] (II) Module libinput: vendor="X.Org Foundation"
+[     5.420] 	compiled for 1.20.10, module version = 1.0.0
+[     5.420] 	Module class: X.Org XInput Driver
+[     5.420] 	ABI class: X.Org XInput driver, version 24.1
+[     5.420] (II) Using input driver 'libinput' for 'Power Button'
+[     5.420] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 34 paused 0
+[     5.420] (**) Power Button: always reports core events
+[     5.420] (**) Option "Device" "/dev/input/event1"
+[     5.420] (**) Option "_source" "server/udev"
+[     5.426] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[     5.426] (II) event1  - Power Button: device is a keyboard
+[     5.426] (II) event1  - Power Button: device removed
+[     5.426] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input1/event1"
+[     5.426] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[     5.426] (**) Option "xkb_layout" "pl"
+[     5.438] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[     5.438] (II) event1  - Power Button: device is a keyboard
+[     5.439] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[     5.439] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[     5.439] (**) Power Button: Applying InputClass "system-keyboard"
+[     5.439] (II) Using input driver 'libinput' for 'Power Button'
+[     5.439] (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 37 paused 0
+[     5.439] (**) Power Button: always reports core events
+[     5.439] (**) Option "Device" "/dev/input/event0"
+[     5.439] (**) Option "_source" "server/udev"
+[     5.440] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[     5.440] (II) event0  - Power Button: device is a keyboard
+[     5.440] (II) event0  - Power Button: device removed
+[     5.440] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0/event0"
+[     5.440] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 7)
+[     5.440] (**) Option "xkb_layout" "pl"
+[     5.441] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[     5.441] (II) event0  - Power Button: device is a keyboard
+[     5.441] (II) config/udev: Adding input device Kingston HyperX Alloy FPS RGB (/dev/input/event4)
+[     5.442] (**) Kingston HyperX Alloy FPS RGB: Applying InputClass "libinput keyboard catchall"
+[     5.442] (**) Kingston HyperX Alloy FPS RGB: Applying InputClass "system-keyboard"
+[     5.442] (II) Using input driver 'libinput' for 'Kingston HyperX Alloy FPS RGB'
+[     5.442] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 38 paused 0
+[     5.442] (**) Kingston HyperX Alloy FPS RGB: always reports core events
+[     5.442] (**) Option "Device" "/dev/input/event4"
+[     5.442] (**) Option "_source" "server/udev"
+[     5.443] (II) event4  - Kingston HyperX Alloy FPS RGB: is tagged by udev as: Keyboard
+[     5.443] (II) event4  - Kingston HyperX Alloy FPS RGB: device is a keyboard
+[     5.444] (II) event4  - Kingston HyperX Alloy FPS RGB: device removed
+[     5.444] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:01.3/0000:03:00.0/usb1/1-6/1-6:1.0/0003:0951:16DC.0002/input/input4/event4"
+[     5.444] (II) XINPUT: Adding extended input device "Kingston HyperX Alloy FPS RGB" (type: KEYBOARD, id 8)
+[     5.444] (**) Option "xkb_layout" "pl"
+[     5.445] (II) event4  - Kingston HyperX Alloy FPS RGB: is tagged by udev as: Keyboard
+[     5.445] (II) event4  - Kingston HyperX Alloy FPS RGB: device is a keyboard
+[     5.446] (II) config/udev: Adding input device Kingston HyperX Alloy FPS RGB (/dev/input/event12)
+[     5.446] (**) Kingston HyperX Alloy FPS RGB: Applying InputClass "libinput keyboard catchall"
+[     5.446] (**) Kingston HyperX Alloy FPS RGB: Applying InputClass "system-keyboard"
+[     5.446] (II) Using input driver 'libinput' for 'Kingston HyperX Alloy FPS RGB'
+[     5.446] (II) systemd-logind: got fd for /dev/input/event12 13:76 fd 39 paused 0
+[     5.446] (**) Kingston HyperX Alloy FPS RGB: always reports core events
+[     5.446] (**) Option "Device" "/dev/input/event12"
+[     5.446] (**) Option "_source" "server/udev"
+[     5.447] (II) event12 - Kingston HyperX Alloy FPS RGB: is tagged by udev as: Keyboard
+[     5.448] (II) event12 - Kingston HyperX Alloy FPS RGB: device is a keyboard
+[     5.448] (II) event12 - Kingston HyperX Alloy FPS RGB: device removed
+[     5.448] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:01.3/0000:03:00.0/usb1/1-6/1-6:1.1/0003:0951:16DC.0003/input/input12/event12"
+[     5.448] (II) XINPUT: Adding extended input device "Kingston HyperX Alloy FPS RGB" (type: KEYBOARD, id 9)
+[     5.448] (**) Option "xkb_layout" "pl"
+[     5.450] (II) event12 - Kingston HyperX Alloy FPS RGB: is tagged by udev as: Keyboard
+[     5.450] (II) event12 - Kingston HyperX Alloy FPS RGB: device is a keyboard
+[     5.452] (II) config/udev: Adding input device Kingston HyperX Alloy FPS RGB Mouse (/dev/input/event18)
+[     5.452] (**) Kingston HyperX Alloy FPS RGB Mouse: Applying InputClass "libinput pointer catchall"
+[     5.452] (II) Using input driver 'libinput' for 'Kingston HyperX Alloy FPS RGB Mouse'
+[     5.453] (II) systemd-logind: got fd for /dev/input/event18 13:82 fd 40 paused 0
+[     5.453] (**) Kingston HyperX Alloy FPS RGB Mouse: always reports core events
+[     5.453] (**) Option "Device" "/dev/input/event18"
+[     5.453] (**) Option "_source" "server/udev"
+[     5.455] (II) event18 - Kingston HyperX Alloy FPS RGB Mouse: is tagged by udev as: Mouse
+[     5.455] (II) event18 - Kingston HyperX Alloy FPS RGB Mouse: device is a pointer
+[     5.456] (II) event18 - Kingston HyperX Alloy FPS RGB Mouse: device removed
+[     5.456] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:01.3/0000:03:00.0/usb1/1-6/1-6:1.2/0003:0951:16DC.0004/input/input18/event18"
+[     5.456] (II) XINPUT: Adding extended input device "Kingston HyperX Alloy FPS RGB Mouse" (type: MOUSE, id 10)
+[     5.456] (**) Option "AccelerationScheme" "none"
+[     5.456] (**) Kingston HyperX Alloy FPS RGB Mouse: (accel) selected scheme none/0
+[     5.456] (**) Kingston HyperX Alloy FPS RGB Mouse: (accel) acceleration factor: 2.000
+[     5.456] (**) Kingston HyperX Alloy FPS RGB Mouse: (accel) acceleration threshold: 4
+[     5.458] (II) event18 - Kingston HyperX Alloy FPS RGB Mouse: is tagged by udev as: Mouse
+[     5.458] (II) event18 - Kingston HyperX Alloy FPS RGB Mouse: device is a pointer
+[     5.460] (II) config/udev: Adding input device Kingston HyperX Alloy FPS RGB Mouse (/dev/input/mouse1)
+[     5.460] (II) No input driver specified, ignoring this device.
+[     5.460] (II) This device may have been added with another device file.
+[     5.461] (II) config/udev: Adding input device Kingston HyperX Alloy FPS RGB System Control (/dev/input/event19)
+[     5.461] (**) Kingston HyperX Alloy FPS RGB System Control: Applying InputClass "libinput keyboard catchall"
+[     5.461] (**) Kingston HyperX Alloy FPS RGB System Control: Applying InputClass "system-keyboard"
+[     5.461] (II) Using input driver 'libinput' for 'Kingston HyperX Alloy FPS RGB System Control'
+[     5.462] (II) systemd-logind: got fd for /dev/input/event19 13:83 fd 41 paused 0
+[     5.462] (**) Kingston HyperX Alloy FPS RGB System Control: always reports core events
+[     5.462] (**) Option "Device" "/dev/input/event19"
+[     5.462] (**) Option "_source" "server/udev"
+[     5.464] (II) event19 - Kingston HyperX Alloy FPS RGB System Control: is tagged by udev as: Keyboard
+[     5.464] (II) event19 - Kingston HyperX Alloy FPS RGB System Control: device is a keyboard
+[     5.464] (II) event19 - Kingston HyperX Alloy FPS RGB System Control: device removed
+[     5.464] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:01.3/0000:03:00.0/usb1/1-6/1-6:1.2/0003:0951:16DC.0004/input/input19/event19"
+[     5.465] (II) XINPUT: Adding extended input device "Kingston HyperX Alloy FPS RGB System Control" (type: KEYBOARD, id 11)
+[     5.465] (**) Option "xkb_layout" "pl"
+[     5.467] (II) event19 - Kingston HyperX Alloy FPS RGB System Control: is tagged by udev as: Keyboard
+[     5.467] (II) event19 - Kingston HyperX Alloy FPS RGB System Control: device is a keyboard
+[     5.468] (II) config/udev: Adding input device Kingston HyperX Alloy FPS RGB Consumer Control (/dev/input/event20)
+[     5.469] (**) Kingston HyperX Alloy FPS RGB Consumer Control: Applying InputClass "libinput keyboard catchall"
+[     5.469] (**) Kingston HyperX Alloy FPS RGB Consumer Control: Applying InputClass "system-keyboard"
+[     5.469] (II) Using input driver 'libinput' for 'Kingston HyperX Alloy FPS RGB Consumer Control'
+[     5.469] (II) systemd-logind: got fd for /dev/input/event20 13:84 fd 42 paused 0
+[     5.469] (**) Kingston HyperX Alloy FPS RGB Consumer Control: always reports core events
+[     5.470] (**) Option "Device" "/dev/input/event20"
+[     5.470] (**) Option "_source" "server/udev"
+[     5.472] (II) event20 - Kingston HyperX Alloy FPS RGB Consumer Control: is tagged by udev as: Keyboard
+[     5.472] (II) event20 - Kingston HyperX Alloy FPS RGB Consumer Control: device is a keyboard
+[     5.472] (II) event20 - Kingston HyperX Alloy FPS RGB Consumer Control: device removed
+[     5.472] (II) libinput: Kingston HyperX Alloy FPS RGB Consumer Control: needs a virtual subdevice
+[     5.472] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:01.3/0000:03:00.0/usb1/1-6/1-6:1.2/0003:0951:16DC.0004/input/input20/event20"
+[     5.472] (II) XINPUT: Adding extended input device "Kingston HyperX Alloy FPS RGB Consumer Control" (type: MOUSE, id 12)
+[     5.472] (**) Option "AccelerationScheme" "none"
+[     5.472] (**) Kingston HyperX Alloy FPS RGB Consumer Control: (accel) selected scheme none/0
+[     5.472] (**) Kingston HyperX Alloy FPS RGB Consumer Control: (accel) acceleration factor: 2.000
+[     5.472] (**) Kingston HyperX Alloy FPS RGB Consumer Control: (accel) acceleration threshold: 4
+[     5.474] (II) event20 - Kingston HyperX Alloy FPS RGB Consumer Control: is tagged by udev as: Keyboard
+[     5.474] (II) event20 - Kingston HyperX Alloy FPS RGB Consumer Control: device is a keyboard
+[     5.476] (II) config/udev: Adding input device Kingston HyperX Alloy FPS RGB Keyboard (/dev/input/event21)
+[     5.476] (**) Kingston HyperX Alloy FPS RGB Keyboard: Applying InputClass "libinput keyboard catchall"
+[     5.476] (**) Kingston HyperX Alloy FPS RGB Keyboard: Applying InputClass "system-keyboard"
+[     5.476] (II) Using input driver 'libinput' for 'Kingston HyperX Alloy FPS RGB Keyboard'
+[     5.476] (II) systemd-logind: got fd for /dev/input/event21 13:85 fd 43 paused 0
+[     5.476] (**) Kingston HyperX Alloy FPS RGB Keyboard: always reports core events
+[     5.476] (**) Option "Device" "/dev/input/event21"
+[     5.476] (**) Option "_source" "server/udev"
+[     5.478] (II) event21 - Kingston HyperX Alloy FPS RGB Keyboard: is tagged by udev as: Keyboard
+[     5.478] (II) event21 - Kingston HyperX Alloy FPS RGB Keyboard: device is a keyboard
+[     5.479] (II) event21 - Kingston HyperX Alloy FPS RGB Keyboard: device removed
+[     5.479] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:01.3/0000:03:00.0/usb1/1-6/1-6:1.2/0003:0951:16DC.0004/input/input22/event21"
+[     5.479] (II) XINPUT: Adding extended input device "Kingston HyperX Alloy FPS RGB Keyboard" (type: KEYBOARD, id 13)
+[     5.479] (**) Option "xkb_layout" "pl"
+[     5.481] (II) event21 - Kingston HyperX Alloy FPS RGB Keyboard: is tagged by udev as: Keyboard
+[     5.481] (II) event21 - Kingston HyperX Alloy FPS RGB Keyboard: device is a keyboard
+[     5.482] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=11 (/dev/input/event10)
+[     5.482] (II) No input driver specified, ignoring this device.
+[     5.482] (II) This device may have been added with another device file.
+[     5.483] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=12 (/dev/input/event11)
+[     5.483] (II) No input driver specified, ignoring this device.
+[     5.483] (II) This device may have been added with another device file.
+[     5.483] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=3 (/dev/input/event5)
+[     5.483] (II) No input driver specified, ignoring this device.
+[     5.483] (II) This device may have been added with another device file.
+[     5.484] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=7 (/dev/input/event6)
+[     5.484] (II) No input driver specified, ignoring this device.
+[     5.484] (II) This device may have been added with another device file.
+[     5.484] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=8 (/dev/input/event7)
+[     5.484] (II) No input driver specified, ignoring this device.
+[     5.484] (II) This device may have been added with another device file.
+[     5.485] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=9 (/dev/input/event8)
+[     5.485] (II) No input driver specified, ignoring this device.
+[     5.485] (II) This device may have been added with another device file.
+[     5.485] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=10 (/dev/input/event9)
+[     5.485] (II) No input driver specified, ignoring this device.
+[     5.485] (II) This device may have been added with another device file.
+[     5.487] (II) config/udev: Adding input device USB Optical Mouse (/dev/input/event3)
+[     5.487] (**) USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+[     5.487] (II) Using input driver 'libinput' for 'USB Optical Mouse'
+[     5.539] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 44 paused 0
+[     5.539] (**) USB Optical Mouse: always reports core events
+[     5.539] (**) Option "Device" "/dev/input/event3"
+[     5.539] (**) Option "_source" "server/udev"
+[     5.541] (II) event3  - USB Optical Mouse: is tagged by udev as: Mouse
+[     5.541] (II) event3  - USB Optical Mouse: device is a pointer
+[     5.541] (II) event3  - USB Optical Mouse: device removed
+[     5.541] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:07.1/0000:20:00.3/usb3/3-3/3-3:1.0/0003:1BCF:0005.0001/input/input3/event3"
+[     5.541] (II) XINPUT: Adding extended input device "USB Optical Mouse" (type: MOUSE, id 14)
+[     5.542] (**) Option "AccelerationScheme" "none"
+[     5.542] (**) USB Optical Mouse: (accel) selected scheme none/0
+[     5.542] (**) USB Optical Mouse: (accel) acceleration factor: 2.000
+[     5.542] (**) USB Optical Mouse: (accel) acceleration threshold: 4
+[     5.543] (II) event3  - USB Optical Mouse: is tagged by udev as: Mouse
+[     5.544] (II) event3  - USB Optical Mouse: device is a pointer
+[     5.545] (II) config/udev: Adding input device USB Optical Mouse (/dev/input/mouse0)
+[     5.545] (II) No input driver specified, ignoring this device.
+[     5.545] (II) This device may have been added with another device file.
+[     5.545] (II) config/udev: Adding input device HD-Audio Generic Front Mic (/dev/input/event13)
+[     5.545] (II) No input driver specified, ignoring this device.
+[     5.545] (II) This device may have been added with another device file.
+[     5.546] (II) config/udev: Adding input device HD-Audio Generic Rear Mic (/dev/input/event14)
+[     5.546] (II) No input driver specified, ignoring this device.
+[     5.546] (II) This device may have been added with another device file.
+[     5.547] (II) config/udev: Adding input device HD-Audio Generic Line (/dev/input/event15)
+[     5.547] (II) No input driver specified, ignoring this device.
+[     5.547] (II) This device may have been added with another device file.
+[     5.547] (II) config/udev: Adding input device HD-Audio Generic Line Out (/dev/input/event16)
+[     5.547] (II) No input driver specified, ignoring this device.
+[     5.547] (II) This device may have been added with another device file.
+[     5.548] (II) config/udev: Adding input device HD-Audio Generic Front Headphone (/dev/input/event17)
+[     5.548] (II) No input driver specified, ignoring this device.
+[     5.548] (II) This device may have been added with another device file.
+[     5.548] (II) config/udev: Adding input device PC Speaker (/dev/input/event2)
+[     5.548] (II) No input driver specified, ignoring this device.
+[     5.548] (II) This device may have been added with another device file.
+[     5.556] (**) Kingston HyperX Alloy FPS RGB Consumer Control: Applying InputClass "libinput keyboard catchall"
+[     5.556] (**) Kingston HyperX Alloy FPS RGB Consumer Control: Applying InputClass "system-keyboard"
+[     5.556] (II) Using input driver 'libinput' for 'Kingston HyperX Alloy FPS RGB Consumer Control'
+[     5.556] (II) systemd-logind: returning pre-existing fd for /dev/input/event20 13:84
+[     5.556] (**) Kingston HyperX Alloy FPS RGB Consumer Control: always reports core events
+[     5.556] (**) Option "Device" "/dev/input/event20"
+[     5.556] (**) Option "_source" "_driver/libinput"
+[     5.556] (II) libinput: Kingston HyperX Alloy FPS RGB Consumer Control: is a virtual subdevice
+[     5.556] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:01.3/0000:03:00.0/usb1/1-6/1-6:1.2/0003:0951:16DC.0004/input/input20/event20"
+[     5.556] (II) XINPUT: Adding extended input device "Kingston HyperX Alloy FPS RGB Consumer Control" (type: KEYBOARD, id 15)
+[     5.556] (**) Option "xkb_layout" "pl"
+[     5.588] (--) NVIDIA(GPU-0): LG Electronics L222W (DFP-1): connected
+[     5.588] (--) NVIDIA(GPU-0): LG Electronics L222W (DFP-1): Internal TMDS
+[     5.588] (--) NVIDIA(GPU-0): LG Electronics L222W (DFP-1): 600.0 MHz maximum pixel clock
+[     5.588] (--) NVIDIA(GPU-0): 
+[     5.618] (--) NVIDIA(GPU-0): LG Electronics L222W (DFP-1): connected
+[     5.619] (--) NVIDIA(GPU-0): LG Electronics L222W (DFP-1): Internal TMDS
+[     5.619] (--) NVIDIA(GPU-0): LG Electronics L222W (DFP-1): 600.0 MHz maximum pixel clock
+[     5.619] (--) NVIDIA(GPU-0): 
+[     5.964] (--) NVIDIA(GPU-0): Gateway FPD1760 (DFP-0): connected
+[     5.965] (--) NVIDIA(GPU-0): Gateway FPD1760 (DFP-0): Internal TMDS
+[     5.965] (--) NVIDIA(GPU-0): Gateway FPD1760 (DFP-0): 330.0 MHz maximum pixel clock
+[     5.965] (--) NVIDIA(GPU-0): 
+[     5.995] (--) NVIDIA(GPU-0): LG Electronics L222W (DFP-1): connected
+[     5.995] (--) NVIDIA(GPU-0): LG Electronics L222W (DFP-1): Internal TMDS
+[     5.995] (--) NVIDIA(GPU-0): LG Electronics L222W (DFP-1): 600.0 MHz maximum pixel clock
+[     5.995] (--) NVIDIA(GPU-0): 
+[     5.995] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[     5.995] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[     5.995] (--) NVIDIA(GPU-0): DFP-2: 1440.0 MHz maximum pixel clock
+[     5.995] (--) NVIDIA(GPU-0): 
+[     5.995] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[     5.995] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[     5.995] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[     5.995] (--) NVIDIA(GPU-0): 
+[     5.995] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[     5.995] (--) NVIDIA(GPU-0): DFP-4: Internal TMDS
+[     5.995] (--) NVIDIA(GPU-0): DFP-4: 330.0 MHz maximum pixel clock
+[     5.995] (--) NVIDIA(GPU-0): 
+[     6.086] (II) NVIDIA(0): Setting mode "DVI-D-0: nvidia-auto-select @1280x1024 +0+0 {ViewPortIn=1280x1024, ViewPortOut=1280x1024+0+0}, HDMI-0: 1680x1050_60_0 @1680x1050 +0+0 {ViewPortIn=1680x1050, ViewPortOut=1680x1050+0+0}"
+[     6.190] (II) NVIDIA(0): Setting mode "DVI-D-0: nvidia-auto-select @1280x1024 +1680+26 {ViewPortIn=1280x1024, ViewPortOut=1280x1024+0+0}, HDMI-0: 1680x1050_60_0 @1680x1050 +0+0 {ViewPortIn=1680x1050, ViewPortOut=1680x1050+0+0}"
+[     7.127] (--) NVIDIA(GPU-0): Gateway FPD1760 (DFP-0): connected
+[     7.127] (--) NVIDIA(GPU-0): Gateway FPD1760 (DFP-0): Internal TMDS
+[     7.127] (--) NVIDIA(GPU-0): Gateway FPD1760 (DFP-0): 330.0 MHz maximum pixel clock
+[     7.127] (--) NVIDIA(GPU-0): 
+[     7.157] (--) NVIDIA(GPU-0): LG Electronics L222W (DFP-1): connected
+[     7.157] (--) NVIDIA(GPU-0): LG Electronics L222W (DFP-1): Internal TMDS
+[     7.157] (--) NVIDIA(GPU-0): LG Electronics L222W (DFP-1): 600.0 MHz maximum pixel clock
+[     7.157] (--) NVIDIA(GPU-0): 
+[     7.157] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[     7.157] (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+[     7.157] (--) NVIDIA(GPU-0): DFP-2: 1440.0 MHz maximum pixel clock
+[     7.157] (--) NVIDIA(GPU-0): 
+[     7.167] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[     7.167] (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+[     7.167] (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+[     7.167] (--) NVIDIA(GPU-0): 
+[     7.167] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[     7.167] (--) NVIDIA(GPU-0): DFP-4: Internal TMDS
+[     7.167] (--) NVIDIA(GPU-0): DFP-4: 330.0 MHz maximum pixel clock
+[     7.167] (--) NVIDIA(GPU-0): 
+[   155.316] (**) Option "fd" "34"
+[   155.316] (II) event1  - Power Button: device removed
+[   155.316] (**) Option "fd" "37"
+[   155.316] (II) event0  - Power Button: device removed
+[   155.316] (**) Option "fd" "38"
+[   155.316] (II) event4  - Kingston HyperX Alloy FPS RGB: device removed
+[   155.316] (**) Option "fd" "39"
+[   155.316] (II) event12 - Kingston HyperX Alloy FPS RGB: device removed
+[   155.316] (**) Option "fd" "40"
+[   155.317] (II) event18 - Kingston HyperX Alloy FPS RGB Mouse: device removed
+[   155.317] (**) Option "fd" "41"
+[   155.317] (II) event19 - Kingston HyperX Alloy FPS RGB System Control: device removed
+[   155.317] (**) Option "fd" "42"
+[   155.317] (**) Option "fd" "43"
+[   155.317] (II) event21 - Kingston HyperX Alloy FPS RGB Keyboard: device removed
+[   155.317] (**) Option "fd" "44"
+[   155.317] (II) event3  - USB Optical Mouse: device removed
+[   155.317] (**) Option "fd" "42"
+[   155.317] (II) event20 - Kingston HyperX Alloy FPS RGB Consumer Control: device removed
+[   155.444] (II) systemd-logind: got pause for 13:82
+[   155.444] (II) systemd-logind: got pause for 13:84
+[   155.444] (II) systemd-logind: got pause for 13:83
+[   155.444] (II) systemd-logind: got pause for 13:85
+[   155.445] (II) systemd-logind: got pause for 13:76
+[   155.445] (II) systemd-logind: got pause for 13:65
+[   155.445] (II) systemd-logind: got pause for 13:68
+[   155.445] (II) systemd-logind: got pause for 13:67
+[   155.445] (II) systemd-logind: got pause for 13:64
+[   158.510] (II) UnloadModule: "libinput"
+[   158.510] (II) systemd-logind: not releasing fd for 13:84, still in use
+[   158.510] (II) UnloadModule: "libinput"
+[   158.510] (II) systemd-logind: releasing fd for 13:67
+[   158.521] (II) UnloadModule: "libinput"
+[   158.521] (II) systemd-logind: releasing fd for 13:85
+[   158.531] (II) UnloadModule: "libinput"
+[   158.531] (II) systemd-logind: releasing fd for 13:84
+[   158.542] (II) UnloadModule: "libinput"
+[   158.542] (II) systemd-logind: releasing fd for 13:83
+[   158.559] (II) UnloadModule: "libinput"
+[   158.559] (II) systemd-logind: releasing fd for 13:82
+[   158.575] (II) UnloadModule: "libinput"
+[   158.575] (II) systemd-logind: releasing fd for 13:76
+[   158.588] (II) UnloadModule: "libinput"
+[   158.588] (II) systemd-logind: releasing fd for 13:68
+[   158.603] (II) UnloadModule: "libinput"
+[   158.603] (II) systemd-logind: releasing fd for 13:64
+[   158.610] (II) UnloadModule: "libinput"
+[   158.610] (II) systemd-logind: releasing fd for 13:65
+[   158.656] (II) NVIDIA(GPU-0): Deleting GPU-0
+[   158.657] (II) Server terminated successfully (0). Closing log file.
