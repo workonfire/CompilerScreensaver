@@ -8,7 +8,7 @@ from colorama import Fore
 
 final_logs: List[List[str]] = [open(filename).readlines() for filename in glob('logs/*.log')]
 joined_logs: List[str] = [line for sublist in final_logs for line in sublist]
-timeouts: Dict[str, Tuple[float, ...]] = {'slow': (1, 1.5, 2, 0.5),
+timeouts: Dict[str, Tuple[float, ...]] = {'slow': (1.0, 1.5, 2.0, 0.5),
                                           'fast': (0.01, 0.04, 0.02, 0.1, 0.2, 0.007)}
 ultra_fast_mode_lines: int = 0
 
