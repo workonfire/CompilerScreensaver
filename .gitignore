@@ -1,0 +1,10 @@
+# Tar files
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Makepkg trash
+src/
+pkg/
+

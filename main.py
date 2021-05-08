@@ -5,9 +5,12 @@ from time import sleep
 from random import randint, choice
 from glob import glob
 from colorama import Fore
+from os import path
 
-final_logs: List[List[str]] = [open(filename).readlines() for filename in glob('logs/*.log')]
-joined_logs: List[str] = [line for sublist in final_logs for line in sublist]
+optional_path: str = '/opt/compiler-screensaver/logs'
+logs_path: str = optional_path if path.isdir(optional_path) else 'logs'
+logs: List[List[str]] = [open(filename).readlines() for filename in glob(f'{logs_path}/*.log')]
+joined_logs: List[str] = [line for sublist in logs for line in sublist]
 timeouts: Dict[str, Tuple[float, ...]] = {'slow': (1.0, 1.5, 2.0, 0.5),
                                           'fast': (0.01, 0.04, 0.02, 0.1, 0.2, 0.007)}
 ultra_fast_mode_lines: int = 0

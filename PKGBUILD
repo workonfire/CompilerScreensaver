@@ -2,7 +2,7 @@
 
 _pkgname=compiler-screensaver
 pkgname=$_pkgname-git
-pkgver=r1.9c1a441
+pkgver=r3.19ebf3a
 pkgrel=1
 epoch=
 pkgdesc="A stupid screensaver, that simulates a compilation process."
