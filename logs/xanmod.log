@@ -537,48 +537,48 @@ X86 Platform Specific Device Drivers (X86_PLATFORM_DEVICES) [Y/n/?] y
   YACC    scripts/genksyms/parse.tab.[ch]
   HOSTLD  arch/x86/tools/relocs
   LEX     scripts/genksyms/lex.lex.c
-  HOSTCC   /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/fixdep.o
+  HOSTCC   /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/fixdep.o
   HOSTCC  scripts/selinux/genheaders/genheaders
-  HOSTLD   /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/fixdep-in.o
-  LINK     /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/fixdep
+  HOSTLD   /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/fixdep-in.o
+  LINK     /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/fixdep
   HOSTCC  scripts/selinux/mdp/mdp
   HOSTCC  scripts/genksyms/parse.tab.o
-  CC       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/arch/x86/special.o
-  CC       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/exec-cmd.o
-  CC       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/help.o
-  MKDIR    /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/arch/x86/lib/
-  GEN      /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/arch/x86/lib/inat-tables.c
-  CC       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/arch/x86/decode.o
-  CC       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/weak.o
-  CC       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/check.o
+  CC       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/arch/x86/special.o
+  CC       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/exec-cmd.o
+  CC       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/help.o
+  MKDIR    /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/arch/x86/lib/
+  GEN      /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/arch/x86/lib/inat-tables.c
+  CC       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/arch/x86/decode.o
+  CC       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/weak.o
+  CC       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/check.o
   HOSTCC  scripts/genksyms/lex.lex.o
   HOSTCC  scripts/bin2c
   HOSTCC  scripts/kallsyms
-  CC       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/special.o
-  CC       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/pager.o
-  CC       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/parse-options.o
+  CC       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/special.o
+  CC       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/pager.o
+  CC       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/parse-options.o
   HOSTCC  scripts/sorttable
-  CC       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/run-command.o
-  LD       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/arch/x86/objtool-in.o
-  CC       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/orc_gen.o
-  CC       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/sigchain.o
+  CC       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/run-command.o
+  LD       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/arch/x86/objtool-in.o
+  CC       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/orc_gen.o
+  CC       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/sigchain.o
   HOSTLD  scripts/genksyms/genksyms
-  CC       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/subcmd-config.o
+  CC       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/subcmd-config.o
   HOSTCC  scripts/asn1_compiler
-  CC       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/orc_dump.o
-  CC       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/builtin-check.o
+  CC       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/orc_dump.o
+  CC       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/builtin-check.o
   HOSTCC  scripts/sign-file
-  CC       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/builtin-orc.o
+  CC       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/builtin-orc.o
   HOSTCC  scripts/extract-cert
   HOSTCC  scripts/insert-sys-cert
-  LD       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/libsubcmd-in.o
-  AR       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/libsubcmd.a
-  CC       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/elf.o
-  CC       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/libstring.o
-  CC       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/objtool.o
-  CC       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/libctype.o
-  CC       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/str_error_r.o
-  CC       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/librbtree.o
+  LD       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/libsubcmd-in.o
+  AR       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/libsubcmd.a
+  CC       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/elf.o
+  CC       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/libstring.o
+  CC       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/objtool.o
+  CC       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/libctype.o
+  CC       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/str_error_r.o
+  CC       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/librbtree.o
   CC      scripts/mod/devicetable-offsets.s
   HOSTCC  scripts/mod/mk_elfconfig
   CC      scripts/mod/empty.o
@@ -587,8 +587,8 @@ X86 Platform Specific Device Drivers (X86_PLATFORM_DEVICES) [Y/n/?] y
   HOSTCC  scripts/mod/sumversion.o
   HOSTCC  scripts/mod/modpost.o
   HOSTCC  scripts/mod/file2alias.o
-  LD       /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/objtool-in.o
-  LINK     /home/krystian/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/objtool
+  LD       /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/objtool-in.o
+  LINK     /home/wzium/.cache/yay/linux-xanmod/src/linux-5.12/tools/objtool/objtool
   HOSTLD  scripts/mod/modpost
   CALL    scripts/atomic/check-atomics.sh
   CC      kernel/bounds.s
